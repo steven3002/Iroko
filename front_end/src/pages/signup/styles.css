@@ -1,0 +1,129 @@
+.signup {
+    width: 100%;
+    height: 100%;
+}
+.signup {
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup > div {
+    width: min(100%, 450px);
+    background-color: var(--white);
+    padding: 30px 36px;
+    border-radius: 6px;
+}
+.signup h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.su-form {
+    width: 100%;
+    padding: 0px;
+    margin-top: 27px;
+}
+.su-form > div {
+    margin-top: 12px;
+}
+.input-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ii {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.ii-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.ii-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.ii-image > div {
+    width: 100%;
+    height: 100%;
+    background-color: #F1F1F1;
+}
+.ii-abs {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    box-shadow: var(--boxshadow);
+}
+.ii-abs-icon {
+    width: 18px;
+    height: 18px;
+}
+.input-wrapper {
+    width: 100%;
+    margin-top: 20px;
+}
+.input-wrapper label {
+    font-size: 13.5px;
+}
+.input-wrapper input {
+    width: 100%;
+    background-color: #F1F1F1;
+    color: #AEAEAE;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 12px;
+}
+.input-wrapper input::placeholder {
+    color: #AEAEAE;
+}
+.file-input {
+    display: none;
+}
+.su-submit {
+    width: 100%;
+    margin-top: 36px !important;
+}
+.submit-btn {
+    background-color: #141414;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.su-sub {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    font-size: 14px;
+    color: #141414;
+}
+.su-sub > div {
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 650;
+    margin-left: 4px;
+}
+@media screen and (max-width: 500px) {
+    .signup {
+        padding: 10px 12px;
+    }
+}

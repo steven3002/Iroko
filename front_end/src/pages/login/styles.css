@@ -1,0 +1,30 @@
+.login {
+    width: 100%;
+    height: 100%;
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.li {
+    width: min(100%, 450px);
+    background-color: var(--white);
+    height: max-content;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.li-form {
+    width: min(95%, 450px);
+    padding: 0px;
+}
+.login h1 {
+    margin: 0;
+    font-size: 15px;
+}
+.su-form-connect {
+    margin-top: 20px;
+}

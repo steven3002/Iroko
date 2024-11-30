@@ -1,0 +1,43 @@
+.Button_buttonVariants_variant_primary__x1s81q1 {
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+    cursor: pointer;
+}
+.Text__2bv1ur0.Text_textVariants_size_sm__2bv1ur1.Text_textVariants_weight_bold__2bv1ur4.Text_textVariants_mono_true__2bv1ur7 {
+    color: var(--white) !important;
+}
+[data-dapp-kit].AccountDropdownMenu_menuContent__div2ql2 {
+    width: 150px !important;
+}
+.Text__2bv1ur0.Text_textVariants_size_sm__2bv1ur1.Text_textVariants_weight_normal__2bv1ur2.Text_textVariants_mono_true__2bv1ur7 {
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+}
+.connect-wallet-btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cwb {
+    width: max-content;
+    background-color: var(--white);
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cwb h3 {
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.cwb p {
+    margin: 10px 0px;
+    margin-bottom: 40px;
+    text-align: center;
+}

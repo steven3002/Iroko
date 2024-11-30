@@ -1,0 +1,168 @@
+.InvestHome {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+.ih {
+    width: 95%;
+    height: max-content;
+    min-height: calc(100% - 24px);
+    background-color: var(--white);
+    margin: 10px 0px;
+    padding: 15px 0px;
+}
+.ih-sticky {
+    width: 100%;
+    position: sticky;
+    top: 10px;
+    left: 50%;
+    background-color: var(--white);
+}
+.ih-nav {
+    width: 100%;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+.ihn-icon {
+    width: 21px;
+    height: 21px;
+    color: var(--black);
+}
+.ih-nav h3 {
+    font-size: 19px;
+    color: var(--black);
+    margin: 0;
+    margin-left: 30px;
+}
+.ih-search, .ih-main {
+    width: 100%;
+}
+.ih-search {
+    padding: 10px 20px;
+}
+.ihs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    border: 1px solid #F1F1F1;
+    box-shadow: 0px 4px 16px 0px #00000014;
+    margin-top: 12px;
+}
+.ihs-icon {
+    width: 21px;
+    height: 21px;
+    color: #B4B4B4;
+}
+.ihs input {
+    width: calc(100% - 24px);
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #B4B4B4;
+}
+.ih-main {
+    margin-top: 5px;
+}
+.ihm-ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns: calc(33.3% - 10px) calc(33.3% - 10px) calc(33.3% - 10px);
+    justify-content: space-between;
+}
+.ihm-li {
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border-top: 1px solid var(--bordergrey);
+    border-left: 1px solid var(--bordergrey);
+    border-bottom: 1px solid var(--bordergrey);
+    box-shadow: 1px -1px 8px #00000014;
+}
+.ihm-li:hover {
+    box-shadow: 4px -4px 16px #00000014;
+}
+.ihml-header img, .ihml-image.loading {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.loading {
+    width: 100%;
+    height: 15px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.ihml-header, .ihml-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ihml-name {
+    flex: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 3px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.ihml-date {
+    font-size: 13.5px;
+    color: #B4B4B4;
+}
+.ihml-details {
+    height: max-content !important;
+    margin-top: 14px;
+}
+.ihml-desc {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+.ihml-desc:last-child {
+    align-items: flex-end;
+}
+.ihmld-name {
+    font-size: 13px;
+    color: #B4B4B4;
+}
+.ihml-name.loading {
+    margin-left: 0px;
+}
+.ihmld-value {
+    margin-top: 6px;
+    font-size: 13.4px;
+    font-weight: 600;
+}
+.ihml-details.loading > div {
+    width: 31%;
+}
+
+@media screen and (max-width: 1110px) {
+    .ihm-ul {
+        grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ihm-ul {
+        grid-template-columns: 100%;
+    }
+}

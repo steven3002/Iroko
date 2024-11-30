@@ -1,0 +1,15 @@
+.App {
+  /* text-align: center; */
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+/* .App > div {
+  position: relative;
+} */
+.IrokoApp {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,105 @@
+.launchpool {
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 99999999;
+    background-color: rgba(27, 27, 27, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.lp {
+    width: min(100%, 450px);
+    background-color: var(--white);
+    height: max-content;
+    max-height: 100%;
+    border-radius: 20px;
+}
+.lp > div {
+    width: 100%;
+}
+.lp > div > div {
+    width: 100%;
+}
+.lp-top {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--bordergrey);
+}
+.lp-top span {
+    font-size: 18px;
+    font-weight: 600;
+}
+.lpt-icon {
+    width: 15px;
+    height: 15px;
+}
+.lp-mid {
+    padding: 15px;
+}
+.lp-mid h4 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+.lpm {
+    width: 100%;
+}
+.lpm > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 6px;
+}
+.lpm-name {
+    font-size: 13.5px;
+    color: #7C7C7C;
+}
+.lpm-value {
+    font-size: 14px;
+    font-weight: 600;
+}
+.amldf-left {
+    width: calc(100% - 40px);
+}
+.amldf-left input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--bordergrey);
+    outline: none;
+    border-radius: 6px;
+}
+
+.lp-success, .lp-success > div {
+    width: 100%;
+    padding: 5px;
+}
+.lps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px !important;
+    padding-top: 18px !important;
+}
+.lps-icon {
+    width: 50px;
+    height: 50px;
+    color: #3C8A00;
+}
+.lps h3 {
+    font-size: 18px;
+    color: #3C8A00;
+    margin: 10px;
+}
+.lps span {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.5rem;
+    text-align: center;
+}

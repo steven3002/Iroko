@@ -1,0 +1,129 @@
+.Asset {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+.asset {
+    width: 95%;
+    height: max-content;
+    min-height: calc(100% - 24px);
+    background-color: var(--white);
+    margin: 10px 0px;
+    padding: 15px 0px;
+}
+.asset-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+.ah-icon {
+    width: 18px;
+    height: 18px;
+    color: var(--black);
+}
+.asset-header h3 {
+    font-size: 18px;
+    margin: 0;
+    margin-left: 30px;
+}
+.asset-main {
+    width: 100%;
+}
+.am-ul {
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: calc(33.3% - 10px) calc(33.3% - 10px) calc(33.3% - 10px);
+    justify-content: space-between;
+}
+.am-li {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid var(--bordergrey);
+    /* box-shadow: 1px -1px 8px #00000014; */
+    margin-top: 20px;
+    cursor: pointer;
+}
+.am-li:hover {
+    box-shadow: 4px -4px 16px #00000014;
+}
+.aml-header {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 400;
+}
+.aml-desc {
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.amld {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.amld:first-child {
+    margin-top: 0px;
+}
+.amld span {
+    font-size: 14px;
+    color: #7C7C7C;
+}
+.amld-value {
+    font-weight: 600;
+}
+.amld-footer {
+    padding: 10px;
+    width: 100%;
+    background-color: #515151;
+    /* background-color: var(--black); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+.amldf-left span {
+    color: var(--white);
+    font-size: 14px;
+}
+.amldf-left {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 0;
+}
+.amldfr-icon {
+    width: 33px;
+    height: 28px;
+    color: var(--white)
+}
+.amldf-size {
+    margin-top: 6px;
+}
+.amld-footer.loading {
+    background-color: transparent;
+    border-top: 1px solid var(--bordergrey);
+    height: max-content !important;
+}
+
+@media screen and (max-width: 1110px) {
+    .am-ul {
+        grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .am-ul {
+        grid-template-columns: 100%;
+    }
+}
